@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Recetas</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestor de Recetas</h1>
+
+    <form id="recipe-form">
+      <input type="text" id="title" placeholder="Nombre de la receta" required>
+      <textarea id="ingredients" placeholder="Ingredientes (separados por coma)" required></textarea>
+      <textarea id="instructions" placeholder="Instrucciones" required></textarea>
+      <button type="submit">Agregar Receta</button>
+    </form>
+
+    <div id="message"></div>
+
+    <h2>Lista de Recetas</h2>
+    <ul id="recipe-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
